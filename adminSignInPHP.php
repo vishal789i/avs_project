@@ -29,3 +29,6 @@ include_once 'DBConnection.php';  //var $conn
     }
 
 ?>
+<footer>
+<input type="button" value="click here to view questions" class="homebutton" id="btnHome" onClick="document.location.href='viewQuestions.php'" />
+</footer>
